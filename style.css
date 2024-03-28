@@ -63,6 +63,10 @@ p{
     display: none;
 }
 
+.show{
+    display: block;
+}
+
 .attribution {
     font-size: 0.8rem;
     text-align: center;
@@ -71,4 +75,15 @@ p{
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width:35rem) {
+    header{
+        background-image: url("./assets/images/background-pattern-desktop.svg");
+    }
+
+    .container{
+        width: 80vh;
+        margin-top: -30rem;
+    }
 }
