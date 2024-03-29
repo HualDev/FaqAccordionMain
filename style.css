@@ -46,6 +46,11 @@ h2{
     width: 60%;
 }
 
+h2:hover{
+    cursor: pointer;
+    color: var(--grayishPurple);
+}
+
 .mentor{
     display: flex;
     align-items: center;
@@ -65,6 +70,22 @@ p{
 
 .show{
     display: block;
+}
+
+.image:hover{
+    cursor: pointer;
+}
+
+.less{
+    background-image: url('./assets/images/icon-minus.svg');
+    width: 2rem;
+    height: 2rem;
+}
+
+.plus{
+    background-image: url('./assets/images/icon-plus.svg');
+    width: 2rem;
+    height: 2rem;
 }
 
 .attribution {
